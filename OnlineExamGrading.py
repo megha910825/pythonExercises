@@ -26,4 +26,3 @@ elif score > 70 and score < 90:
         print("Grade C")
 elif score < 70:
     print("Grade D")
-    
