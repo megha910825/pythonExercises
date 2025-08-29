@@ -20,17 +20,3 @@ elif purchase_amount > 1000 and purchase_amount < 2000:
 else:
    discount = 0
 print("Your discount percentage::", discount)
-# Problem 2: Traffic Light Signal Scenario:
-
-# You are writing a program for a traffic control system.
-# If the light is "Red," print "Stop."
-# If the light is "Yellow," print "Get ready."
-# If the light is "Green," print "Go."
-
-light = input("Enter your light::")
-if light == 'Red':
-   print("Stop")
-elif light == 'Yellow':
-   print("Get Ready")
-elif light == 'Green':
-   print("Go")

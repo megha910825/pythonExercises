@@ -5,6 +5,7 @@
 ## if your rating is below 2 you will get no hike
 ## Consider scenario 1: CTC 1000000 rating 4.7
 ## Scenario 2: CTC 1000000 rating 2.5
+
 ctc = 1000000
 rating = 2.5
 hike = 0

@@ -23,12 +23,3 @@ elif(credit_score < 600):
     print("Not Eligible")
     
 
-# Problem 4: Movie Ticket Pricing Scenario:
-
-# A cinema offers different ticket prices based on the customer's age.
-# If the age is below 5, the ticket is free.
-# If the age is between 5 and 12, the ticket price is $5.
-# If the age is between 13 and 60, the ticket price is $10.
-# If the age is above 60, the ticket price is $7.
-
-# Task: Write a program that takes the age as input and prints the ticket price.

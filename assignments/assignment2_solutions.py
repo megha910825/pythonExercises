@@ -1,3 +1,24 @@
+# Q1:
+# Movie Ticket Pricing
+# Scenario: A cinema has different ticket prices based on age.
+# Task: Write a program that asks for the customer's age and prints the ticket price.
+
+# Child (0-12): ₹100
+# Teen (13-17): ₹150
+# Adult (18-59): ₹200
+# Senior (60+): ₹120
+
+age = int(input("Enter your age::"))
+if(age <12):
+    ticket_price = 100
+if age >= 12 and age <= 17:
+    ticket_price = 150
+if age >= 18 and age <= 59:
+    ticket_price = 200
+if age > 60:
+    ticket_price = 120
+print(ticket_price)
+
 # Q7:"
 # College Admission Predictor
 # Scenario: A college has different admission criteria based on exam scores.
